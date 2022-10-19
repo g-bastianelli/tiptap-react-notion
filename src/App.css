@@ -63,8 +63,8 @@
 
 .menubar button.is-active {
   background: white;
-  border: 1px solid #0D0D0D;
-  color: #0D0D0D;
+  border: 1px solid #0d0d0d;
+  color: #0d0d0d;
 }
 
 /* Basic editor content styles */
@@ -79,7 +79,8 @@
   margin-top: 0.75em;
 }
 
-.ProseMirror ul,ol {
+.ProseMirror ul,
+ol {
   padding: 0 1rem;
 }
 
@@ -93,14 +94,14 @@ h6 {
 }
 
 .ProseMirror code {
-  background-color: rgba(38,38,38, 0.1);
+  background-color: rgba(38, 38, 38, 0.1);
   color: #616161;
 }
 
 .ProseMirror pre {
-  background: #0D0D0D;
-  color: #FFF;
-  font-family: 'JetBrainsMono', monospace;
+  background: #0d0d0d;
+  color: #fff;
+  font-family: "JetBrainsMono", monospace;
   padding: 0.75rem 1rem;
   border-radius: 0.5rem;
 }
@@ -119,11 +120,11 @@ h6 {
 
 .ProseMirror blockquote {
   padding-left: 1rem;
-  border-left: 2px solid rgba(5,5,5, 0.1);
+  border-left: 2px solid rgba(5, 5, 5, 0.1);
 }
 
 .ProseMirror hr {
   border: none;
-  border-top: 2px solid rgba(5,5,5, 0.1);
+  border-top: 2px solid rgba(5, 5, 5, 0.1);
   margin: 2rem 0;
 }
