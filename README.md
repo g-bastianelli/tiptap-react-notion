@@ -1,1 +1,1 @@
-# tiptap-notion-react
+# tiptap-react-notion
