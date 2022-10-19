@@ -1,6 +1,7 @@
 import React from "react";
 import { Editor, EditorContent, useEditor } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
+import { TypeSuggestion } from "./extensions/block-type-suggestion";
 
 interface MenuBarProps {
   editor: Editor | null;
@@ -137,7 +138,7 @@ const MenuBar = ({ editor }: MenuBarProps) => {
 
 export const DemoEditor = () => {
   const editor = useEditor({
-    extensions: [StarterKit],
+    extensions: [StarterKit, TypeSuggestion],
     content: `
       <h2>
         Hi there,
