@@ -16,6 +16,9 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.logo.tiptap:hover {
+  filter: drop-shadow(0 0 2em #b2b2b2);
+}
 
 @keyframes logo-spin {
   from {
@@ -38,4 +41,89 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* Editor Component styles */
+.editor {
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: start;
+}
+
+.menubar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em;
+}
+
+.menubar button {
+  border: 1px solid #b3b3b3;
+}
+
+.menubar button.is-active {
+  background: white;
+  border: 1px solid #0D0D0D;
+  color: #0D0D0D;
+}
+
+/* Basic editor content styles */
+.ProseMirror-focused {
+  outline: none;
+}
+.ProseMirror {
+  text-align: start;
+}
+
+.ProseMirror > * + * {
+  margin-top: 0.75em;
+}
+
+.ProseMirror ul,ol {
+  padding: 0 1rem;
+}
+
+.ProseMirror h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.1;
+}
+
+.ProseMirror code {
+  background-color: rgba(38,38,38, 0.1);
+  color: #616161;
+}
+
+.ProseMirror pre {
+  background: #0D0D0D;
+  color: #FFF;
+  font-family: 'JetBrainsMono', monospace;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.ProseMirror code {
+  color: inherit;
+  padding: 0;
+  background: none;
+  font-size: 0.8rem;
+}
+
+.ProseMirror img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ProseMirror blockquote {
+  padding-left: 1rem;
+  border-left: 2px solid rgba(5,5,5, 0.1);
+}
+
+.ProseMirror hr {
+  border: none;
+  border-top: 2px solid rgba(5,5,5, 0.1);
+  margin: 2rem 0;
 }
