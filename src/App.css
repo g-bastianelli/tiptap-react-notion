@@ -63,7 +63,6 @@
 
 .menubar button.is-active {
   background: white;
-  border: 1px solid #0d0d0d;
   color: #0d0d0d;
 }
 
